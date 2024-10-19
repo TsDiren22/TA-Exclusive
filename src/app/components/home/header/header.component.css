@@ -1,0 +1,39 @@
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/background3.jpeg");
+  min-height: 100%;
+}
+
+.w3-button:hover {
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  color: black;
+}
+
+.w3-display-left {
+  position: initial;
+  top: initial;
+  left: initial;
+  transform: initial;
+  font-family: LogoFont, sans-serif;
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+div .fa {
+  padding: 5px;
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 100%;
+}
+
+div .fa:hover {
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  color: black;
+  cursor: pointer;
+  opacity: 100%;
+}
