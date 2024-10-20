@@ -1,5 +1,5 @@
 .w3-bar .w3-button {
-  padding: 32px;
+  padding: 23px;
   background: linear-gradient(45deg, #b68a4b, #c5a461, #dbbd77, #e2d489, #efe898);
   -webkit-background-clip: text;
   background-clip: text;
@@ -15,8 +15,21 @@
 
 #logo {
   font-family: LogoFont, sans-serif;
-  padding: 20px;
+  padding: 15px;
   margin: 0;
-  font-size: 25pt;
+  font-size: 22pt;
 }
 
+.menu {
+  background: linear-gradient(45deg, #b68a4b, #c5a461, #dbbd77, #e2d489, #efe898);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+  font-size: 8pt;
+}
+
+.menu:hover {
+  background: linear-gradient(45deg, #b68a4b, #c5a461, #dbbd77, #e2d489, #efe898);
+  color: black;
+}

@@ -1,8 +1,9 @@
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/background3.jpeg");
-  min-height: 100%;
+  background-image: url("/m5_banner.webp");
+  min-height: 90%;
+  object-fit: cover;
 }
 
 .w3-button:hover {
