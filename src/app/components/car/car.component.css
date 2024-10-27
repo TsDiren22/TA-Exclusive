@@ -1,3 +1,75 @@
-.w3-quarter {
+.w3-col {
+  padding: 0 8px;
+}
+
+.w3-quarter{
+  text-align: center;
+  font-size: 9pt;
+  font-weight: bolder;
+  font-family: LogoFont, sans-serif;
+  display: inline-block;
+  width: 23%; /* Adjust this percentage for spacing */
+}
+
+.fa{
+  font-size: 20pt;
+}
+
+.title{
+  font-family: LogoFont, sans-serif;
+  font-size: 12pt;
+  font-weight: bolder;
+}
+
+.w3-button{
+  opacity: 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 12pt;
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+  border-style: solid;
+  border-color: #d6a725;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.price{
+  font-family: LogoFont, sans-serif;
   padding: 10px;
+  margin: 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: normal;
+  color: white;
+  opacity: 100%;
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+}
+
+.w3-button:hover {
+  cursor: pointer;
+  opacity: 100%;
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  .meer{
+    color: white;
+  }
+}
+
+.meer{
+  padding: 0;
+  margin: 0 0 0 25%;
+  text-align: right;
+  font-weight: bolder;
+  background: linear-gradient(45deg, #ca821d, #d59a1e, #d6a725, #e6ce44, #efe898);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }

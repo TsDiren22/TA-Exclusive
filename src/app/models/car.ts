@@ -50,6 +50,8 @@ export class Car {
   mileageRangeCity?: number;
   mileageRangeHighway?: number;
   price?: number;
+  mileage?: number;
+  image?: string;
 
   constructor(data: any) {
     this.makeId = data.makeId;
@@ -103,5 +105,7 @@ export class Car {
     this.mileageRangeCity = data.mileageRangeCity;
     this.mileageRangeHighway = data.mileageRangeHighway;
     this.price = data.price;
+    this.mileage = data.mileage;
+    this.image = data.image;
   }
 }

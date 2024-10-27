@@ -15,15 +15,20 @@ export class NavbarComponent {
   w3_open() {
     const sidebar = document.getElementById("mySidebar");
     if (sidebar) {
-      sidebar.style.display = "block";
+      if (sidebar.style.display == "block"){
+        sidebar.style.display = "none"
+      }
+      else{
+        sidebar.style.display = "block";
+      }
     }
   }
 
-  // Method to close the sidebar
-  w3_close() {
-    const sidebar = document.getElementById("mySidebar");
-    if (sidebar) {
-      sidebar.style.display = "none";
-    }
-  }
+  // // Method to close the sidebar
+  // w3_close() {
+  //   const sidebar = document.getElementById("mySidebar");
+  //   if (sidebar) {
+  //     sidebar.style.display = "none";
+  //   }
+  // }
 }

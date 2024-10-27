@@ -1,7 +1,15 @@
-<div class="w3-quarter">
-  <img alt="car" src="/background.jpg" width="100%"/>
-  <p class="w3-large">{{car?.makeName + " " + car?.modelName}}</p>
-  <p>Jaar: {{car?.trimYear}}</p>
-  <p>Prijs: {{car?.price || "Nog niet bekend"}}</p>
-  <p>{{car?.trimDescription}}</p>
+<div class="w3-col l3 m6 w3-margin-bottom">
+  <div class="w3-card">
+    <img alt="car" src="{{car?.image}}" width="100%"/>
+    <div class="w3-container">
+      <h3 class="title">{{car?.makeName + " " + car?.modelName + " " + car?.trimYear}}</h3>
+      <div class="w3-row flex-container">
+        <p class="w3-quarter"><i class="fa fa-dashboard"></i><br/>{{car?.mileage}}km</p>
+        <p class="w3-quarter"><i class="fa fa-calendar"></i><br/>{{car?.trimYear}}</p>
+        <p class="w3-quarter"><i class="fa fa-leaf"></i><br/>{{car?.engineFuelType}}</p>
+        <p class="w3-quarter"><i class="fa fa-cogs"></i><br/>{{car?.engineTransmission}}</p>
+      </div>
+      <button class="w3-button w3-light-grey w3-block"><p class="price">€{{car?.price}}</p><p class="meer">Zie meer</p></button>
+    </div>
+  </div>
 </div>

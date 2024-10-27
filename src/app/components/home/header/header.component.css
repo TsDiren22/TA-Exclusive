@@ -2,7 +2,7 @@
   background-position: center;
   background-size: cover;
   background-image: url("/m5_banner.webp");
-  min-height: 90%;
+  min-height: 100%;
   object-fit: cover;
 }
 
@@ -38,3 +38,4 @@ div .fa:hover {
   cursor: pointer;
   opacity: 100%;
 }
+
